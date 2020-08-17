@@ -5,14 +5,19 @@ HTML是一种标记语言，全称为超文本标记语言（HyperText Markup La
 
 一个基本的HTML页面结构如下
 
-    <!doctype html>
+    <!DOCTYPE html>
     <html>
     <head>
-
+        <meta charset="UTF-8">
+        <tilte>My website</title>
     </head>
     <body>
-
+        <p>我是一个段落</p>
     </body>
     </html>
 
-一个HTML由若干元素（Element）组成，一个元素又可以包含若干属性（Attribute）
+一个HTML由若干元素（Element）组成，上面的`<p>我是一个段落</p>`就是一个HTML元素（HTML Element）。
+
+一个元素可以放在其他元素中，也就是嵌套，比如`<p>我是<em>小明</em></p>`，em元素嵌套在p元素中。
+
+在上述代码中，`<html>`是根元素（root element）。

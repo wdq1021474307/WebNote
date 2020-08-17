@@ -10,4 +10,4 @@ WanderQing
 
 github地址: https://github.com/wdq1021474307
 
-![](images/2020-08-07-10-34-13.png)
+![](./images/2020-08-07-10-34-13.png)

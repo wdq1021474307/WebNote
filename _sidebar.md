@@ -1,7 +1,12 @@
 * HTML
-  * [HTML简介](docs/html/README.md)
+  * [HTML简介](./docs/html/README.md)
+  * [元素类型](./docs/html/elementType.md)
 * CSS3
 * JavaScript
+  * [简介](./docs/javascript/README.md)
+  * [Promise对象](./docs/javascript/promise.md)
+  * [任务类型](./docs/javascript/task.md)
+  * [并发和事件模型](./docs/javascript/concurrent.md)
 * Node.js
   * 简介
   * 基础知识
