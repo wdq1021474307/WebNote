@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        .container{
+            width: 300px;
+            height: 400px;
+            background-color: black;
+            border: pink solid 2px;
+            display: -webkit-flex;
+            /* flex-direction:row; */
+            justify-content: center;
+            /* align-items: center; */
+        }
+        .box{
+            height: 50px;
+            width: 50px;
+            /* text-align: center; */
+            background-color: red;
+            margin: 0.1em;
+        }
+        td{
+            text-align: center;
+        }
+        table{
+            width: 800px;
+			height: 500px;
+			border: 1px solid #000;
+        }
+        .container2{
+            height: 400px;
+            width: 800px;
+            border: 1px solid #000;
+            position:relative;
+        }
+        .box2{
+            height: 4em;
+            width: 4em;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            border: pink solid 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+    </div>
+    <table>
+        <thead></thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div>
+                        纸上得来终觉浅，绝知此事要躬行
+                        <br>
+                        纸上得来终觉浅，绝知此事要躬行
+                        <br>
+                        纸上得来终觉浅，绝知此事要躬行
+                        <br>
+                        纸上得来终觉浅，绝知此事要躬行
+                        <br>
+                    </div>
+                    
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="container2">
+        <div class="box2">
+        </div>
+    </div>
+</body>
+</html>
