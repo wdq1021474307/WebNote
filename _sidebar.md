@@ -25,5 +25,7 @@
 * 前端面试题
   * [前端面试题1](./docs/client/1.md)
   * [前端面试题2](./docs/client/2.md)
+* 前端笔试题
+  * [前端笔试题1](./docs/client/3.md)
 * 参考资料
   * [MDN](https://developer.mozilla.org/zh-CN/)
