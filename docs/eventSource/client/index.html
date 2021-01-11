@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventSource Client</title>
+</head>
+
+<body>
+    <p>EventSource Client</p>
+    <script>
+        const eventSource = new EventSource('http://localhost:3000/test', { withCredentials: true });
+        // EventName 是服务端的 EventSource event 字段的值
+        eventSource.addEventListener('test', event => {
+            console.log(event.data);
+        })
+    </script>
+</body>
+
+</html>
