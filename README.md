@@ -23,8 +23,10 @@
 
 ### JavaScript
 #### [继承和原型链](./docs/javascript/prototype/README.md)
+#### [Math 取整](./docs/javascript/Math/README.md)
 #### ES6 语法
 ### Node.js
+#### [EventSource](./docs/eventSource/README.md)
 
 ### V8 引擎
 #### 垃圾回收
