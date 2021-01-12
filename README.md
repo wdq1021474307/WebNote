@@ -10,10 +10,11 @@
 ## 目录
 
 ### 计算机网络
-
+#### [TCP/IP 协议栈](./docs/TCP-IP/README.md)
 ### 算法
 #### 排序
 ##### [插入排序](./docs/algorithms/sort/insert.js)
+##### [选择排序](./docs/algorithms/sort/select.js)
 
 ### 数据结构
 #### 最基本的数据结构
@@ -24,7 +25,11 @@
 ### JavaScript
 #### [继承和原型链](./docs/javascript/prototype/README.md)
 #### [Math 取整](./docs/javascript/Math/README.md)
-#### ES6 语法
+#### [任务](./docs/javascript/task.md)
+#### [Promise](./docs/javascript/promise.md)
+
+#### ES6
+##### [let 和 const](./docs/javascript/es6/letAndConst.md)
 ### Node.js
 #### [EventSource](./docs/eventSource/README.md)
 
@@ -36,6 +41,9 @@
 #### 核心部分
 #### 执行原理
 
+### [WebSockeet](./docs/websocket/README.md)
+#### [socket.io](./docs/websocket/socket.io.md)
+
 ### UI框架
 #### [Semantic-UI / Fomantic-UI](./docs/ui/semantic-ui.md)
 #### Element UI
@@ -44,4 +52,4 @@
 ### 前沿技术
 #### HyBird
 #### 人脸识别
-face-api.js
+##### faceapi

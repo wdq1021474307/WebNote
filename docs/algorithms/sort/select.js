@@ -8,9 +8,7 @@ const { exchange }  = require('./common.js');
 function selectSort(nums){
     for (let i = 0; i < nums.length - 1; i++) {
         for(let j = i + 1; j < nums.length; j++){
-            console.log(nums[i], nums[j])
             if (nums[j] < nums[i]) {
-                
                 exchange(nums, i, j);
             }
         }

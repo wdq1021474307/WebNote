@@ -20,7 +20,7 @@ socket.io库导出了一个`Server`函数对象，我们可以调用`Server`函�
     // 这里需要显式的调用Server构造函数
     let io = require("socket.io")();
     // 使用node.js核心模块http创建的http服务器，监听的端口号为3000
-    let server = require("http").createServer(3000,()={});
+    let server = require("http").createServer(3000,() => {});
     // 指定端口号监听
     // io.listen(3000);
     // 指定Server对象进行监听
