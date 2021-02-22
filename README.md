@@ -32,6 +32,7 @@
 
 #### ES6
 - [let 和 const](./docs/javascript/es6/letAndConst.md)
+- [babel](./docs/babel/README.md)
 ### Node.js
 - [EventSource](./docs/eventSource/README.md)
 
@@ -42,13 +43,10 @@
 ### Vue 技术栈
 - 核心部分
 - 执行原理
+- [Vuex](./docs/vue/vuex/README.md)
+- [Renderless](./docs/vue/renderless/README.md)
+- [slot](./docs/vue/slot/README.md)
 
 ### WebSockeet
 - [简介](./docs/websocket/README.md)
 - [socket.io](./docs/websocket/socket.io.md)
-
-
-### 前沿技术
-- HyBird
-- 人脸识别
-    - faceapi
