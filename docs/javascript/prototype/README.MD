@@ -83,3 +83,35 @@ JavaScript 是基于原型的语言，即使 在 ES6 中提供了 `class` 关键
         }
         return false;
     }
+
+### call 的基本实现
+    Function.prototype.myCall = function(context){
+        const ctx = context || window
+        const args = [...arguments].slice(1)
+        ctx.fn = this
+        const result = ctx.fn(...args)
+        delete ctx.fn
+        return result
+    }
+
+### apply 的基本实现
+    Function.prototype.myApply = function(context){
+        const ctx = context || window
+        const args = arguments[1]
+        ctx.fn = this
+        const result = args ? ctx.fn(...args) : ctx.fn()
+        delete ctx.fn
+        return result
+    }
+
+### bind 的基本实现
+    Function.prototype.myBind = function(context){
+        const _this = this
+        const args = [...arguments].slice(1)
+        return function F() {
+            if(_this instanceof F){
+                return _this(...args, ...arguments)
+            }
+            return _this.apply(context, args.concat(...arguments))
+        }
+    }
