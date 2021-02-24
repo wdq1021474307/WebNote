@@ -29,6 +29,8 @@
 - [Math 取整](./docs/javascript/Math/README.md)
 - [任务](./docs/javascript/task.md)
 - [Promise](./docs/javascript/promise.md)
+- [JavaScript 并发与事件模型](./docs/javascript/concurrent.md)
+- [栈帧](./docs/javascript/stack-frame.md)
 
 #### ES6
 - [let 和 const](./docs/javascript/es6/letAndConst.md)

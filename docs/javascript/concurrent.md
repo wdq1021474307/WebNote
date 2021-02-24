@@ -1,4 +1,4 @@
-# JavaScript并发与事件模型
+# JavaScript 并发与事件模型
 ## 运行时概念
 ### 栈（Stack）
 栈是一种后进先出的数据结构。
