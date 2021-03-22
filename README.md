@@ -21,7 +21,7 @@
 ### 数据结构
 #### 基本数据结构
 - 数组
-- 链表
+- [链表](./docs/data-struct/linked-list/README.md)
 
 
 ### JavaScript
@@ -39,8 +39,8 @@
 - [EventSource](./docs/eventSource/README.md)
 
 ### V8 引擎
-- 垃圾回收
-- 对象表示
+- [垃圾回收](./docs/V8/GC.md)
+- [对象表示](./docs/V8/OR.md)
 
 ### Vue 技术栈
 - 核心部分
