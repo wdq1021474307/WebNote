@@ -31,6 +31,7 @@
 - [Promise](./docs/javascript/promise.md)
 - [JavaScript 并发与事件模型](./docs/javascript/concurrent.md)
 - [栈帧](./docs/javascript/stack-frame.md)
+- [事件委托](./docs/javascript/event-delegate.md)
 
 #### ES6
 - [let 和 const](./docs/javascript/es6/letAndConst.md)
